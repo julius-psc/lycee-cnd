@@ -15,7 +15,7 @@ const Levels = () => {
                 <p>La seconde au lycée est la première année du cycle du lycée en France, qui vise à approfondir les connaissances acquises au collège et à préparer les élèves aux études supérieures.</p>
                 <h4>Organisation</h4>
                 <ul>
-                <p>En classe de Seconde, les enseignements se divisent en deux catégories :</p>
+                    <p>En classe de Seconde, les enseignements se divisent en deux catégories :</p>
                     <li>- Enseignements communs à tous les élèves</li>
                     <li>- Enseignements optionnels pour les élèves qui le souhaitent</li>
                 </ul>
