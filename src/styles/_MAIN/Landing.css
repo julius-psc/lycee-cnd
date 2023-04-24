@@ -1,0 +1,175 @@
+
+
+
+.landing {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+  
+.landing img {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+}
+  
+.landing-txt {
+    position: absolute;
+    right: 0;
+    background-color: var(--secondaryColor);
+    width: 50%;
+    top: 0;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 40px;
+    color: #fff;
+}
+
+.landing-txt h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.landing-txt h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.landing-txt p {
+    font-size: 1.2rem;
+}
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 850px) { 
+    .landing-txt {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    .landing-txt h3, .landing-txt p {
+        margin: 10px 0;
+    }
+    
+    .landing-txt h1 {
+        margin-bottom: 12px;
+        font-size: 2.4rem;
+        line-height: 3.8rem;
+    }
+    
+    .landing-txt h3 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .landing-txt p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 991px) { 
+    .landing-txt {
+        height: 95%;
+    }
+
+    .landing-txt h3, .landing-txt p {
+        margin: 10px 0;
+    }
+    
+    .landing-txt h1 {
+        margin-bottom: 12px;
+        font-size: 2.8rem;
+    }
+    
+    .landing-txt h3 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .landing-txt p {
+        font-size: 1rem;
+    }
+} 
+
+@media only screen and (max-width: 1200px) { 
+    .landing-txt {
+        height: 95%;
+    }
+
+    .landing-txt h3, .landing-txt p {
+        margin: 10px 0;
+    }
+    
+    .landing-txt h1 {
+        margin-bottom: 12px;
+        font-size: 2.8rem;
+    }
+    
+    .landing-txt h3 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .landing-txt p {
+        font-size: 1rem;
+    }
+} 
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .landing-txt {
+        height: 95%;
+    }
+
+    .landing-txt h3, .landing-txt p {
+        margin: 10px 0;
+    }
+    
+    .landing-txt h1 {
+        margin-bottom: 12px;
+        font-size: 3.2rem;
+    }
+    
+    .landing-txt h3 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .landing-txt p {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 1500px) { 
+    .landing-txt {
+        height: 95%;
+    }
+
+    .landing-txt h3, .landing-txt p {
+        margin: 10px 0;
+    }
+    
+    .landing-txt h1 {
+        margin-bottom: 12px;
+        font-size: 6rem;
+        line-height: 6.4rem;
+    }
+    
+    .landing-txt h3 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .landing-txt p {
+        font-size: 1.4rem;
+    }
+} 
+  
+  
+  

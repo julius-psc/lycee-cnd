@@ -1,0 +1,56 @@
+
+
+
+.sub-about-sect {
+    margin: 40px;
+}
+
+.sub-about-sect #container:not(:first-child) {
+    margin: 60px 0;
+}
+
+.sub-about-sect h1 {
+    font-size: 2rem;
+    color: var(--mainColor);
+}  
+
+.sub-about-sect h3 {
+    font-size: 1.4rem;
+    color: var(--mainColor);
+}
+
+.sub-about-sect h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.sub-about-sect #container {
+    color: var(--thirdColor);
+}
+
+.sub-about-sect #container p, .special-sect #container ul {
+    margin-bottom: 15px;
+}
+
+.sub-about-sect span {
+    font-weight: 600;
+}
+
+.sub-about-sect table {
+    border-collapse: collapse;
+    color: #173747;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.sub-about-sect td {
+    border: 3px solid #173747;
+    padding: 10px;
+}
+
+.sub-about-sect thead {
+    background-color: var(--mainColor);
+}
+
+
+

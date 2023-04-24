@@ -1,0 +1,15 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --mainColor: #4EB5ED;
+    --secondaryColor : #46a3d5;
+}
+
+html, body {
+    width: 100%;
+    min-width: 400px;
+    scroll-behavior: smooth;
+}

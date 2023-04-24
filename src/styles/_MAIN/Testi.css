@@ -1,0 +1,47 @@
+
+
+
+.testimonial-section {
+    color: #fff;
+    background-color: #4EB5ED;
+    padding: 80px;
+}
+
+.quotes-icon {
+    fill: #fff;
+    width: 80px;
+    height: 80px;
+}
+
+.testimonial-section p {
+    margin: 40px 0;
+    font-weight: 600;
+}
+
+.testimonial-section h3 {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 750px) {
+    .testimonial-section {
+        padding: 60px;
+    }
+
+    .testimonial-section h3 {
+        font-size: 1.4rem;
+    }
+
+    .quotes-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonial-section p {
+        font-size: 0.8rem;
+    }
+}
+
+
+
