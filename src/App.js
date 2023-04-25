@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-        <Route exact path="/lycee-cnd" element={<Main />} />
+        <Route exact path="/" element={<Main />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/specialities" element={<Specialities/>} />
         <Route exact path="/options" element={<Options/>} />
