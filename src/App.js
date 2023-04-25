@@ -18,7 +18,7 @@ function App() {
   return (
     <Router>
       <Navbar/>
-      <Routes basename="/lycee-cnd">
+      <Routes basepath="/cnd">
         <Route exact path="/accueil" element={<Main />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/specialities" element={<Specialities/>} />
