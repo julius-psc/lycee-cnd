@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/lycee-cnd/static/css/main.9eddd41c.css",
-    "main.js": "/lycee-cnd/static/js/main.a44b237b.js",
-    "static/js/787.285c2feb.chunk.js": "/lycee-cnd/static/js/787.285c2feb.chunk.js",
-    "static/media/Screenshot 2023-04-15 at 17.12.49.png": "/lycee-cnd/static/media/Screenshot 2023-04-15 at 17.12.49.df45f54208a22fb2c8ca.png",
-    "static/media/Screenshot 2023-04-15 at 17.12.05.png": "/lycee-cnd/static/media/Screenshot 2023-04-15 at 17.12.05.6d7e952e76f560e0f04c.png",
-    "static/media/Screenshot 2023-04-15 at 17.11.05.png": "/lycee-cnd/static/media/Screenshot 2023-04-15 at 17.11.05.1f500f5fc327dbef5301.png",
-    "static/media/cndCTA.jpeg": "/lycee-cnd/static/media/cndCTA.b93e08f71547088e2f8f.jpeg",
-    "static/media/cnd-landing-img.jpeg": "/lycee-cnd/static/media/cnd-landing-img.d7543c09083e6a8e4dbb.jpeg",
-    "static/media/cnd-logo.png": "/lycee-cnd/static/media/cnd-logo.176a7aa96915633d965b.png",
-    "index.html": "/lycee-cnd/index.html",
-    "static/media/quote-left-solid.svg": "/lycee-cnd/static/media/quote-left-solid.0db0a8d3b4210d2dd51e7a3e208d221c.svg",
-    "main.9eddd41c.css.map": "/lycee-cnd/static/css/main.9eddd41c.css.map",
-    "main.a44b237b.js.map": "/lycee-cnd/static/js/main.a44b237b.js.map",
-    "787.285c2feb.chunk.js.map": "/lycee-cnd/static/js/787.285c2feb.chunk.js.map"
+    "main.css": "/static/css/main.9eddd41c.css",
+    "main.js": "/static/js/main.89b18980.js",
+    "static/js/787.285c2feb.chunk.js": "/static/js/787.285c2feb.chunk.js",
+    "static/media/Screenshot 2023-04-15 at 17.12.49.png": "/static/media/Screenshot 2023-04-15 at 17.12.49.df45f54208a22fb2c8ca.png",
+    "static/media/Screenshot 2023-04-15 at 17.12.05.png": "/static/media/Screenshot 2023-04-15 at 17.12.05.6d7e952e76f560e0f04c.png",
+    "static/media/Screenshot 2023-04-15 at 17.11.05.png": "/static/media/Screenshot 2023-04-15 at 17.11.05.1f500f5fc327dbef5301.png",
+    "static/media/cndCTA.jpeg": "/static/media/cndCTA.b93e08f71547088e2f8f.jpeg",
+    "static/media/cnd-landing-img.jpeg": "/static/media/cnd-landing-img.d7543c09083e6a8e4dbb.jpeg",
+    "static/media/cnd-logo.png": "/static/media/cnd-logo.176a7aa96915633d965b.png",
+    "index.html": "/index.html",
+    "static/media/quote-left-solid.svg": "/static/media/quote-left-solid.0db0a8d3b4210d2dd51e7a3e208d221c.svg",
+    "main.9eddd41c.css.map": "/static/css/main.9eddd41c.css.map",
+    "main.89b18980.js.map": "/static/js/main.89b18980.js.map",
+    "787.285c2feb.chunk.js.map": "/static/js/787.285c2feb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9eddd41c.css",
-    "static/js/main.a44b237b.js"
+    "static/js/main.89b18980.js"
   ]
 }
