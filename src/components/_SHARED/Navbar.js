@@ -20,13 +20,13 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <div className="nav-logo">
-                <NavLink to="/"><img alt="CND Logo" src={logo}></img></NavLink>
+                <NavLink to="/lycee-cnd"><img alt="CND Logo" src={logo}></img></NavLink>
             </div>
 
             <div className={`nav-links ${mobileMenuOpen ? 'mobile-menu' : ''}`}>
                 <ul>
                     <li>
-                        <NavLink to="/" activeClassName="active">Accueil</NavLink>
+                        <NavLink to="/lycee-cnd" activeClassName="active">Accueil</NavLink>
                     </li>
                     <li>
                         <NavLink to="/events" activeClassName="active">Evenements</NavLink>
