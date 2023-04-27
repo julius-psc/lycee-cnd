@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 
 import Navbar from "./components/_SHARED/Navbar";
 import ScrollToTopButton from "./components/_SHARED/ScrollToTop";
@@ -19,7 +19,8 @@ function App() {
     <Router>
       <Navbar/>
       <Routes basepath="/cnd">
-        <Route exact path="/accueil" element={<Main />} />
+        <Route path="/accueil" element={<Main />} />
+        <Route path="/" element={<Navigate to="/accueil" />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/specialities" element={<Specialities/>} />
         <Route exact path="/options" element={<Options/>} />
