@@ -13,6 +13,8 @@ import Options from "./components/_ABOUT/_OPTIONS/Options";
 
 import Levels from "./components/_LEVELS/Levels";
 
+import Contact from "./components/_CONTACT/Contact";
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route exact path="/specialities" element={<Specialities/>} />
         <Route exact path="/options" element={<Options/>} />
         <Route exact path="/levels" element={<Levels/>} />
+        <Route exact path="/contact" element={<Contact/>} />
       </Routes>
       <ScrollToTopButton />
       <Footer/>

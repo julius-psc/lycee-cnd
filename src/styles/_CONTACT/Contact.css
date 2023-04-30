@@ -1,0 +1,126 @@
+
+
+#contact-h1 {
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    background-color: var(--mainColor);
+}
+
+.contact-sect {
+    display: flex;
+    margin: 120px 0;
+    justify-content: center;
+    background-color: #e8eef7;
+}
+
+.contact-details h4 {
+    font-size: 1.2rem;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 40px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+    padding: 80px;
+    margin: 0 20px;
+}
+
+.contact-details h4 {
+    color: var(--mainColor);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    padding: 10px 10px;
+    width: 300px;
+    border: 2px solid var(--mainColor);
+    margin: 20px 0;
+    border-radius: 6px;
+}
+
+.contact-form input:focus {
+    border: 3px solid var(--mainColor);
+    outline: none;
+}
+
+.contact-form input::placeholder {
+    color: #173747;
+}
+
+#msg-input {
+    min-height: 100px;
+    min-width: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    vertical-align: top;
+    border: 2px solid var(--mainColor);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#msg-input:focus {
+    border: 3px solid var(--mainColor);
+    outline: none;
+}
+
+.contact-form button {
+    cursor: pointer;
+    padding: 14px;
+    color: var(--mainColor);
+    border: 3px solid var(--mainColor);
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.contact-form button:hover {
+    transition: background-color 0.5s ease, color 0.5s ease;
+    background-color: var(--mainColor);
+    color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .contact-details p {
+        font-size: 1rem;
+    }
+
+    .contact-form {
+        margin: 0 10px;
+        padding: 20px;
+    }
+
+    .contact-details {
+        padding: 40px;
+        margin: 0 10px;
+        height: 500px;
+    }
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .contact-sect {
+        display: block;
+    }
+
+    .contact-form {
+        display: flex;
+        justify-content: center;
+    }
+}
