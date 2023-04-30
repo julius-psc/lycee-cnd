@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lycee-cnd/static/css/main.beb61955.css",
-    "main.js": "/lycee-cnd/static/js/main.bf65fbfb.js",
+    "main.css": "/lycee-cnd/static/css/main.d5664f35.css",
+    "main.js": "/lycee-cnd/static/js/main.d04012ad.js",
     "static/js/787.285c2feb.chunk.js": "/lycee-cnd/static/js/787.285c2feb.chunk.js",
     "static/media/Screenshot 2023-04-15 at 17.12.49.png": "/lycee-cnd/static/media/Screenshot 2023-04-15 at 17.12.49.df45f54208a22fb2c8ca.png",
     "static/media/Screenshot 2023-04-15 at 17.12.05.png": "/lycee-cnd/static/media/Screenshot 2023-04-15 at 17.12.05.6d7e952e76f560e0f04c.png",
@@ -12,12 +12,12 @@
     "static/media/cnd-logo.png": "/lycee-cnd/static/media/cnd-logo.176a7aa96915633d965b.png",
     "index.html": "/lycee-cnd/index.html",
     "static/media/quote-left-solid.svg": "/lycee-cnd/static/media/quote-left-solid.0db0a8d3b4210d2dd51e7a3e208d221c.svg",
-    "main.beb61955.css.map": "/lycee-cnd/static/css/main.beb61955.css.map",
-    "main.bf65fbfb.js.map": "/lycee-cnd/static/js/main.bf65fbfb.js.map",
+    "main.d5664f35.css.map": "/lycee-cnd/static/css/main.d5664f35.css.map",
+    "main.d04012ad.js.map": "/lycee-cnd/static/js/main.d04012ad.js.map",
     "787.285c2feb.chunk.js.map": "/lycee-cnd/static/js/787.285c2feb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb61955.css",
-    "static/js/main.bf65fbfb.js"
+    "static/css/main.d5664f35.css",
+    "static/js/main.d04012ad.js"
   ]
 }
