@@ -15,6 +15,8 @@ import Levels from "./components/_LEVELS/Levels";
 
 import Contact from "./components/_CONTACT/Contact";
 
+import Sign from "./components/_SIGN/Sign";
+
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
         <Route exact path="/options" element={<Options/>} />
         <Route exact path="/levels" element={<Levels/>} />
         <Route exact path="/contact" element={<Contact/>} />
+        <Route exact path="/sign" element={<Sign/>} />
       </Routes>
       <ScrollToTopButton />
       <Footer/>

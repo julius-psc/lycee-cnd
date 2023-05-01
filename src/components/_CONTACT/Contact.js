@@ -44,20 +44,26 @@ const Contact = () => {
                 <div className="contact-details">
                     <div>
                         <h4>Téléphone</h4>
-                        <p>02 31 36 12 12</p>
+                        <p><a href="tel:+33231361212">02 31 36 12 12</a></p>
                     </div>
                     <div>
                         <h4>Gmail</h4>
-                        <p>secretariat-eleves@elcdouvres.fr</p>
-                        <p>secretariat-direction@elcdouvres.fr</p>
+                        <p><a href="mailto:secretariat-eleves@elcdouvres.fr">secretariat-eleves@elcdouvres.fr</a></p>
+                        <p><a href="mailto:secretariat-direction@elcdouvres.fr">secretariat-direction@elcdouvres.fr</a></p>
                     </div>
                     <div>
                         <h4>ENT</h4>
-                        <p>Ecole Directe</p>
+                        <p><a target="_blank" href="https://www.ecoledirecte.com/login">Ecole Directe</a></p>
                     </div>
                     <div>
                         <h4>Instagram</h4>
-                        <p>@lycee.cnd</p>
+                        <p><a href="https://www.instagram.com/lycee_cnd/">@lycee.cnd</a></p>
+                    </div>
+                    <div>
+                        <h4>Adresse</h4>
+                        <p>Rue de l'Arbalète</p>
+                        <p>14440</p>
+                        <p>Douvres La Délivrande</p>
                     </div>
                 </div>
 
