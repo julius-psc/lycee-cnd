@@ -7,6 +7,8 @@ import Footer from "./components/_SHARED/Footer";
 
 import Main from "./components/_MAIN/Main";
 
+import Events from "./components/_EVENTS/Event";
+
 import About from "./components/_ABOUT/About";
 import Specialities from "./components/_ABOUT/_SPECIALITIES/Specialities";
 import Options from "./components/_ABOUT/_OPTIONS/Options";
@@ -25,6 +27,7 @@ function App() {
       <Routes basepath="/cnd">
         <Route path="/accueil" element={<Main />} />
         <Route path="/" element={<Navigate to="/accueil" />} />
+        <Route path="/events" element={<Events/>} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/specialities" element={<Specialities/>} />
         <Route exact path="/options" element={<Options/>} />
