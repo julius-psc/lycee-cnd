@@ -8,16 +8,18 @@ import landingImage from '../../assets/images/cnd-landing-img.jpeg';
 
 const LandingPage = () => {
     return (
-        <header className='landing'>
-            <div className="landing-img">
-                <img src={landingImage} alt="landing image" />
-            </div>
-            <div className="landing-txt">
-                <h1>Diversité,<br /> Communauté<br /> et Excellence</h1>
-                <p>L'éducation dans un environnement de bienveillance et de collectivité de la Seconde jusqu'à la Terminale.</p>
-                <h3>Bienvenue au Lycée CND!</h3>
-            </div>
-        </header>
+        <div className='landing-container'>
+            <header className='landing'>
+                <div className="overlay">
+                    <h1>Diversité,<br /> Communauté<br /> et Excellence</h1>
+                    <p>Bienvenue au lycée CND!</p>
+                </div>
+                <div className="landing-img">
+                    <img src={landingImage} alt="landing image" />
+                </div>
+            </header>
+        </div>
+
     )
 }
 

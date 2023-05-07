@@ -1,175 +1,121 @@
 
 
 
-.landing {
+.landing-container {
+    background-image: url("../../assets/images/cnd-landing-img.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .landing {
     position: relative;
     margin: 0;
     padding: 0;
     z-index: 0;
-}
+  }
   
-.landing img {
+  .landing-img {
     position: relative;
-    width: 100vw;
-    height: 100%;
-}
+  }
   
-.landing-txt {
+  .landing img {
+    position: relative;
+    width: 100%;
+  }
+  
+  .overlay {
+    z-index: 1;
     position: absolute;
-    right: 0;
-    background-color: var(--secondaryColor);
-    width: 50%;
     top: 0;
-    height: 90%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 40px;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(78, 181, 237, 0.8);
     color: #fff;
-}
-
-.landing-txt h1 {
-    font-size: 3rem;
-    line-height: 4rem;
-}
-
-.landing-txt h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3.4vw; /* Use vw units for padding */
+  }
+  
+  .overlay h1 {
+    font-size: 6vw; /* Use vw units for font size */
+    line-height: 1.1em; /* Use em units for line height */
+  }
+  
+  .overlay p {
+    margin-top: 1.4em;
     text-align: center;
-    font-size: 2rem;
-}
-
-.landing-txt p {
-    font-size: 1.2rem;
-}
+    font-size: 2.4vw; /* Use vw units for font size */
+    line-height: 1.4em; /* Use em units for line height */
+  }
 
 
 
 
-/* Media Queries */
-
-@media only screen and (max-width: 850px) { 
-    .landing-txt {
-        position: relative;
-        width: 100%;
-        text-align: center;
+/* Media Queries
+  @media screen and (min-width: 1930px) {
+    .overlay h1 {
+        font-size: 8rem;
+        line-height: 7.2rem;
     }
-
-    .landing-txt h3, .landing-txt p {
-        margin: 10px 0;
-    }
-    
-    .landing-txt h1 {
-        margin-bottom: 12px;
+      
+    .overlay p {
         font-size: 2.4rem;
-        line-height: 3.8rem;
-    }
-    
-    .landing-txt h3 {
         text-align: center;
-        font-size: 1.2rem;
+        padding-top: 60px;
     }
-    
-    .landing-txt p {
-        font-size: 1rem;
-    }
-}
+  }
 
-@media only screen and (min-width: 850px) and (max-width: 991px) { 
-    .landing-txt {
-        height: 95%;
+  @media screen and (max-width: 1930px) {
+    .overlay h1 {
+        font-size: 6.8rem;
+        line-height: 7rem;
     }
-
-    .landing-txt h3, .landing-txt p {
-        margin: 10px 0;
-    }
-    
-    .landing-txt h1 {
-        margin-bottom: 12px;
-        font-size: 2.8rem;
-    }
-    
-    .landing-txt h3 {
+      
+    .overlay p {
+        font-size: 2.2rem;
         text-align: center;
-        font-size: 1.2rem;
+        padding-top: 40x;
     }
-    
-    .landing-txt p {
-        font-size: 1rem;
-    }
-} 
+  }
 
-@media only screen and (max-width: 1200px) { 
-    .landing-txt {
-        height: 95%;
-    }
-
-    .landing-txt h3, .landing-txt p {
-        margin: 10px 0;
-    }
-    
-    .landing-txt h1 {
-        margin-bottom: 12px;
-        font-size: 2.8rem;
-    }
-    
-    .landing-txt h3 {
-        text-align: center;
-        font-size: 1.2rem;
-    }
-    
-    .landing-txt p {
-        font-size: 1rem;
-    }
-} 
-
-@media only screen and (min-width: 1200px) and (max-width: 1500px) {
-    .landing-txt {
-        height: 95%;
-    }
-
-    .landing-txt h3, .landing-txt p {
-        margin: 10px 0;
-    }
-    
-    .landing-txt h1 {
-        margin-bottom: 12px;
-        font-size: 3.2rem;
-    }
-    
-    .landing-txt h3 {
-        text-align: center;
-        font-size: 2rem;
-    }
-    
-    .landing-txt p {
-        font-size: 1.4rem;
-    }
-}
-
-@media only screen and (min-width: 1500px) { 
-    .landing-txt {
-        height: 95%;
-    }
-
-    .landing-txt h3, .landing-txt p {
-        margin: 10px 0;
-    }
-    
-    .landing-txt h1 {
-        margin-bottom: 12px;
+  @media screen and (max-width: 1720px) {
+    .overlay h1 {
         font-size: 6rem;
-        line-height: 6.4rem;
+        line-height: 7rem;
     }
-    
-    .landing-txt h3 {
+      
+    .overlay p {
+        font-size: 2.2rem;
         text-align: center;
-        font-size: 2rem;
+        padding-top: 40x;
     }
-    
-    .landing-txt p {
-        font-size: 1.4rem;
+  }
+
+  @media screen and (max-width: 1520px) {
+    .overlay h1 {
+        font-size: 5.4rem;
+        line-height: 5.6rem;
     }
-} 
+      
+    .overlay p {
+        font-size: 1.8rem;
+        text-align: center;
+        padding-top: 40x;
+    }
+  }
   
-  
-  
+  @media screen and (max-width: 1420px) {
+    .overlay h1 {
+        font-size: 5rem;
+        line-height: 5.4rem;
+    }
+      
+    .overlay p {
+        font-size: 1.8rem;
+        text-align: center;
+        padding-top: 40x;
+    }
+  } */

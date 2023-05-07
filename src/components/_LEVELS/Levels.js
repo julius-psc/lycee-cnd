@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 import '../../styles/_LEVELS/Levels.css';
 
-import newBac from "../../assets/images/bacnouveau.jpeg";
+import newBac from "../../assets/images/cnd-new-bac.jpeg";
 
 const Levels = () => {
     const [secondOpen, setSecondOpen] = useState(true);

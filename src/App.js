@@ -27,13 +27,13 @@ function App() {
       <Routes basepath="/cnd">
         <Route path="/accueil" element={<Main />} />
         <Route path="/" element={<Navigate to="/accueil" />} />
-        <Route path="/events" element={<Events/>} />
-        <Route exact path="/about" element={<About />} />
+        <Route path="/evenements" element={<Events/>} />
+        <Route exact path="/a-propos" element={<About />} />
         <Route exact path="/specialities" element={<Specialities/>} />
         <Route exact path="/options" element={<Options/>} />
-        <Route exact path="/levels" element={<Levels/>} />
-        <Route exact path="/contact" element={<Contact/>} />
-        <Route exact path="/sign" element={<Sign/>} />
+        <Route exact path="/niveaux" element={<Levels/>} />
+        <Route exact path="/contacter" element={<Contact/>} />
+        <Route exact path="/inscription" element={<Sign/>} />
       </Routes>
       <ScrollToTopButton />
       <Footer/>

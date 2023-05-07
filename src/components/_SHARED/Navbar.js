@@ -7,7 +7,6 @@ import { useState } from 'react';
 
 import '../../styles/_SHARED/Nav.css';
 import logo from '../../assets/images/cnd-logo.png';
-import menu from '../../assets/images/bluehamgbuge.png';
 
 const Navbar = () => {
 
@@ -29,25 +28,29 @@ const Navbar = () => {
                         <NavLink to="/accueil" activeClassName="active">Accueil</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/events" activeClassName="active">Evenements</NavLink>
+                        <NavLink to="/evenements" activeClassName="active">Evenements</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/about" activeClassName="active">A Propos</NavLink>
+                        <NavLink to="/a-propos" activeClassName="active">A Propos</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/levels" activeClassName="active">Niveaux</NavLink>
+                        <NavLink to="/niveaux" activeClassName="active">Niveaux</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/contact" activeClassName="active">Contacter</NavLink>
+                        <NavLink to="/contacter" activeClassName="active">Contacter</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/sign" activeClassName="active">Inscriptions</NavLink>
+                        <NavLink to="/inscription" activeClassName="active">Inscriptions</NavLink>
                     </li>
                 </ul>
             </div>
 
             <div className={`menu-hamburger ${mobileMenuOpen ? 'open' : ''}`} onClick={handleMobileMenuToggle}>
-                <img src={menu}></img>
+                <div class="menu-icon">
+                    <div class="menu-icon-bar"></div>
+                    <div class="menu-icon-bar"></div>
+                    <div class="menu-icon-bar"></div>
+                </div>
             </div>
 
         </nav>

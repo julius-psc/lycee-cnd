@@ -6,7 +6,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import '../../styles/_MAIN/Cta.css';
-import image from '../../assets/images/cndCTA.jpeg';
+import image from '../../assets/images/cnd-main-cta.jpeg';
 
 const CallToAction = () => {
     return (
