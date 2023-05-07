@@ -5,12 +5,12 @@
 
 :root {
     --mainColor: #4EB5ED;
-    --secondaryColor: #9BAEBC;
-    --thirdColor: #FFFFFF;
+    --secondaryColor: #384955;
+    --thirdColor: #1d1d1f;
+    --fourthColor: #f5f5f7;
 }
 
 html, body {
     width: 100%;
-    min-width: 400px;
     scroll-behavior: smooth;
 }

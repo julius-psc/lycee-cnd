@@ -42,25 +42,25 @@
 }
 
 .event-past {
-    border: 2px solid #a1bdcb;
+    border: 2px solid #b9c1c7;
 }
 
 .event-past .event-date {
-    border-right: 2px solid #a1bdcb;
-    color: #a1bdcb;
+    border-right: 2px solid #b9c1c7;
+    color: #8b949b;
 }
 
 .event-past .event-day {
-    color: #a1bdcb;
+    color: #384955;
 }
 
 .event-past .event-details {
-    color: #5b6468;
+    color: #8b949b;
 }
 
 @media screen and (max-width: 1400px) {
     .event-details {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }
 
@@ -76,6 +76,6 @@
     }
 
     .event-details {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 }

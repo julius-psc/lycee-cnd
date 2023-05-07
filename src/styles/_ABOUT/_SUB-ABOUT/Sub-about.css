@@ -38,13 +38,13 @@
 
 .sub-about-sect table {
     border-collapse: collapse;
-    color: #173747;
+    color: #384955;
     font-weight: 600;
     margin-top: 20px;
 }
 
 .sub-about-sect td {
-    border: 3px solid #173747;
+    border: 3px solid #384955;
     padding: 10px;
 }
 
