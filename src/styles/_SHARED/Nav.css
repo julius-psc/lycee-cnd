@@ -38,8 +38,8 @@ body {
 }
 
 .nav-links li {
-	font-size: 1.2rem;
-	margin: 0 25px;
+	font-size: 1rem;
+	margin: 0 20px;
 	font-weight: 600;
 }
 
@@ -128,7 +128,7 @@ body {
 		justify-content: center;
 		align-items: center;
 		margin-right: -100%;
-		transition: all 0.9s ease;
+		transition: all 0.7s ease;
 		z-index: 1;
 		backdrop-filter: blur(10px);
 	}

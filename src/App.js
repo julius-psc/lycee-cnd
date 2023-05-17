@@ -26,7 +26,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/lycee-cnd/accueil" element={<Main />} />
-        <Route path="/lycee-cnd" element={<Navigate to="/lycee-cnd/accueil" />} />
+        <Route path="/lycee-cnd/" element={<Navigate to="/lycee-cnd/accueil" />} />
         <Route path="/lycee-cnd/evenements" element={<Events/>} />
         <Route exact path="/lycee-cnd/a-propos" element={<About />} />
         <Route exact path="/lycee-cnd/specialities" element={<Specialities/>} />

@@ -56,7 +56,7 @@ const Events = () => {
                         <div className="event-year">{eventDate.getFullYear()}</div>
                     </div>
                   </div>
-                  <div className="event-details">{event.event}</div>
+                  <div className="event-details"><p>{event.event}</p></div>
                 </div>
               );
             })}

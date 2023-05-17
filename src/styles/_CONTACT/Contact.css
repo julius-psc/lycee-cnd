@@ -124,7 +124,7 @@
     }
 
     .contact-details p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         margin: 2px 0;
     }
 }
@@ -151,7 +151,7 @@
     }
 
     .contact-details {
-        padding: 40px;
+        padding: 20px;
         margin: 0 10px;
         height: 500px;
     }

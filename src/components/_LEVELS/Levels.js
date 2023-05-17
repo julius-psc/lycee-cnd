@@ -63,7 +63,7 @@ const Levels = () => {
                             </ul>
                             <h4>Enseignements Optionnels</h4>
                             <p>En seconde, les options au lycée permettent aux élèves de découvrir de nouvelles matières et de mieux comprendre leurs intérêts et leurs compétences.</p>
-                            <NavLink to="/options"><button id="option-btn">Options +</button></NavLink>
+                            <NavLink to="/lycee-cnd/options"><button id="option-btn">Options +</button></NavLink>
                         </>
                     )
                 }
@@ -94,10 +94,10 @@ const Levels = () => {
                             </ul>
                             <h4>Enseignements de Spécialite</h4>
                             <p>Les élèves doivent choisir trois enseignements de spécialité parmi une liste de matières proposées, ce qui leur permet de se familiariser avec des domaines variés et d'approfondir leurs centres d'intérêt.</p>
-                            <NavLink to="/specialities"><button id="spec-btn">Spécialités +</button></NavLink>
+                            <NavLink to="/lycee-cnd/specialities"><button id="spec-btn">Spécialités +</button></NavLink>
                             <h4>Enseignements Optionnels</h4>
                             <p>En première, les options au lycée sont souvent choisies en fonction du projet d'orientation des élèves pour l'enseignement supérieur et pour approfondir les matières qui les intéressent le plus.</p>
-                            <NavLink to="/options"><button id="option-btn">Options +</button></NavLink>
+                            <NavLink to="/lycee-cnd/options"><button id="option-btn">Options +</button></NavLink>
                         </>
                     )
                 }
@@ -127,10 +127,10 @@ const Levels = () => {
                             </ul>
                             <h4>Enseignements de Spécialité</h4>
                             <p>Chaque élève doit conserver deux spécialités parmi les trois qu'il a choisies en classe de Première</p>
-                            <NavLink to="/specialities"><button id="spec-btn">Spécialités +</button></NavLink>
+                            <NavLink to="/lycee-cnd/specialities"><button id="spec-btn">Spécialités +</button></NavLink>
                             <h4>Enseignements Optionnels</h4>
                             <p>En terminale, les options au lycée peuvent avoir une influence sur les études supérieures et la carrière professionnelle des élèves, car elles peuvent fournir une base solide pour une spécialisation ultérieure.</p>
-                            <NavLink to="/options"><button id="option-btn">Options +</button></NavLink>
+                            <NavLink to="/lycee-cnd/options"><button id="option-btn">Options +</button></NavLink>
                         </>
                 )
                }

@@ -16,6 +16,10 @@ const Navbar = () => {
       setMobileMenuOpen(!mobileMenuOpen);
     };
 
+    const handleNavLinkClick = () => {
+        setMobileMenuOpen(false);
+    };
+
     return (
         <nav className='navbar'>
             <div className="nav-logo">
@@ -25,22 +29,22 @@ const Navbar = () => {
             <div className={`nav-links ${mobileMenuOpen ? 'mobile-menu' : ''}`}>
                 <ul>
                     <li>
-                        <NavLink to="/lycee-cnd/accueil" activeClassName="active">Accueil</NavLink>
+                        <NavLink onClick={handleNavLinkClick} to="/lycee-cnd/accueil" activeClassName="active">Accueil</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/lycee-cnd/evenements" activeClassName="active">Evenements</NavLink>
+                        <NavLink onClick={handleNavLinkClick} to="/lycee-cnd/evenements" activeClassName="active">Evenements</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/lycee-cnd/a-propos" activeClassName="active">A Propos</NavLink>
+                        <NavLink onClick={handleNavLinkClick} to="/lycee-cnd/a-propos" activeClassName="active">A Propos</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/lycee-cnd/niveaux" activeClassName="active">Niveaux</NavLink>
+                        <NavLink onClick={handleNavLinkClick} to="/lycee-cnd/niveaux" activeClassName="active">Niveaux</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/lycee-cnd/contacter" activeClassName="active">Contacter</NavLink>
+                        <NavLink onClick={handleNavLinkClick} to="/lycee-cnd/contacter" activeClassName="active">Contacter</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/lycee-cnd/inscription" activeClassName="active">Inscriptions</NavLink>
+                        <NavLink onClick={handleNavLinkClick} to="/lycee-cnd/inscription" activeClassName="active">Inscriptions</NavLink>
                     </li>
                 </ul>
             </div>

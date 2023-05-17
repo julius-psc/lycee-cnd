@@ -79,8 +79,11 @@
     }
 
     .event-details {
-        padding: 10px;
-        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .event-details p {
+        font-size: 0.8rem;
     }
 }
 
