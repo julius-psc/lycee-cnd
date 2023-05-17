@@ -1,121 +1,75 @@
 
 
 
-.landing-container {
+.landing {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+.landing img {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 98%;
+  width: 50%;
+  color: #fff;
+  background-color: rgba(78, 181, 237, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3.4vw;
+}
+
+.overlay h1 {
+  font-size: 6vw;
+  line-height: 1.1em;
+}
+
+.overlay p {
+  margin-top: 1.4em;
+  text-align: center;
+  font-size: 2.4vw;
+  line-height: 1.4em;
+}
+
+
+@media screen and (max-width: 600px) {
+  .landing-container {
     background-image: url("../../assets/images/cnd-landing-img.jpeg");
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
   }
-  
-  .landing {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    z-index: 0;
-  }
-  
+
   .landing-img {
-    position: relative;
+    display: none;
   }
-  
-  .landing img {
-    position: relative;
-    width: 100%;
-  }
-  
+
   .overlay {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 50%;
-    background-color: rgba(78, 181, 237, 0.8);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3.4vw; /* Use vw units for padding */
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    position: static;
+    padding: 40px 0;
+    background-color: rgba(78, 181, 237, 0.7);
   }
-  
+
   .overlay h1 {
-    font-size: 6vw; /* Use vw units for font size */
-    line-height: 1.1em; /* Use em units for line height */
+    font-size: 30px;
   }
   
   .overlay p {
     margin-top: 1.4em;
     text-align: center;
-    font-size: 2.4vw; /* Use vw units for font size */
-    line-height: 1.4em; /* Use em units for line height */
+    font-size: 4vw;
+    line-height: 1.4em;
   }
-
-
-
-
-/* Media Queries
-  @media screen and (min-width: 1930px) {
-    .overlay h1 {
-        font-size: 8rem;
-        line-height: 7.2rem;
-    }
-      
-    .overlay p {
-        font-size: 2.4rem;
-        text-align: center;
-        padding-top: 60px;
-    }
-  }
-
-  @media screen and (max-width: 1930px) {
-    .overlay h1 {
-        font-size: 6.8rem;
-        line-height: 7rem;
-    }
-      
-    .overlay p {
-        font-size: 2.2rem;
-        text-align: center;
-        padding-top: 40x;
-    }
-  }
-
-  @media screen and (max-width: 1720px) {
-    .overlay h1 {
-        font-size: 6rem;
-        line-height: 7rem;
-    }
-      
-    .overlay p {
-        font-size: 2.2rem;
-        text-align: center;
-        padding-top: 40x;
-    }
-  }
-
-  @media screen and (max-width: 1520px) {
-    .overlay h1 {
-        font-size: 5.4rem;
-        line-height: 5.6rem;
-    }
-      
-    .overlay p {
-        font-size: 1.8rem;
-        text-align: center;
-        padding-top: 40x;
-    }
-  }
-  
-  @media screen and (max-width: 1420px) {
-    .overlay h1 {
-        font-size: 5rem;
-        line-height: 5.4rem;
-    }
-      
-    .overlay p {
-        font-size: 1.8rem;
-        text-align: center;
-        padding-top: 40x;
-    }
-  } */
+}

@@ -58,15 +58,29 @@
     color: #8b949b;
 }
 
-@media screen and (max-width: 1400px) {
-    .event-details {
-        font-size: 1rem;
-    }
-}
+@media screen and (max-width: 600px) {
+    
 
-@media  screen and (max-width: 1200px) {
+    .events-section h1 {
+        font-size: 1.4rem;
+        padding: 20px;
+    }
+
     .events-container {
-        grid-template-columns: repeat(2, 1fr);
+        margin: 10px 20px;
+    }
+
+    .event-day {
+        font-size: 1.8rem;
+    }
+
+    .event-date {
+        padding: 20px;
+    }
+
+    .event-details {
+        padding: 10px;
+        font-size: 0.9rem;
     }
 }
 
@@ -77,5 +91,17 @@
 
     .event-details {
         font-size: 1.4rem;
+    }
+}
+
+@media  screen and (max-width: 1200px) {
+    .events-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .event-details {
+        font-size: 1rem;
     }
 }

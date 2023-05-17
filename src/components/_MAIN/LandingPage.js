@@ -11,7 +11,7 @@ const LandingPage = () => {
         <div className='landing-container'>
             <header className='landing'>
                 <div className="overlay">
-                    <h1>Diversité,<br /> Communauté<br /> et Excellence</h1>
+                    <h1>Diversité,<br /> Communauté,<br /> et Excellence</h1>
                     <p>Bienvenue au lycée CND!</p>
                 </div>
                 <div className="landing-img">

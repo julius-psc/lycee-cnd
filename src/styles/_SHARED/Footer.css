@@ -7,3 +7,13 @@ footer {
     color: var(--mainColor);
     font-weight: 600;
 }
+
+@media screen and (max-width: 600px) {
+    footer p {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}

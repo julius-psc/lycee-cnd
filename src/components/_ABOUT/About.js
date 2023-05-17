@@ -36,11 +36,11 @@ function About() {
                     <>
                         <p>De plus, notre objectif est :</p>
                         <ul>
-                            <li><span>[+]</span>Faciliter la transition entre le collège et le lycée</li>
+                            <li><span>[+]</span>Faciliter la transition entre le collège & lycée</li>
                             <li><span>[+]</span>Enseigner des méthodes de travail efficaces</li>
                             <li><span>[+]</span>Fournir un soutien aux élèves en difficulté</li>
                             <li><span>[+]</span>Maintenir la motivation de tous les élèves</li>
-                            <li><span>[+]</span>Accompagner les élèves dans l'élaboration de leur projet personnel</li>
+                            <li><span>[+]</span>Accompagner les élèves dans leur projet</li>
                             <li><span>[+]</span>Encourager l'apprentissage de la liberté et de l'autonomie</li>
                         </ul>
                     </>
@@ -70,17 +70,8 @@ function About() {
                 )}
             </div>
 
-            <div className="container-wrapper">
-                <div id="container">
-                    <h3>Notre Lycée ⏴</h3>
-                    <ul>
-                        <li><span>[+]</span>Batiments récents inaugurés en 2014</li>
-                        <li><span>[+]</span>Un grand parc classé 'Monuments Historiques'</li>
-                        <li><span>[+]</span>Terrain multi-sports + Parking Vélos / Voitures</li>
-                    </ul>
-                </div>
-                <div id="container">
-                    <h3>Horaires ⏴</h3>
+            <div id="paragraph-container">
+                    <h2>Horaires ⏴</h2>
                     <div>
                         <table>
                             <tbody>
@@ -100,62 +91,78 @@ function About() {
                         </table>
                     </div>
                 </div>
-                <div id="container">
-                    <h3>Spécialités ⏴</h3>
-                    <ul>
-                        <li><span>[+]</span>Histoire, Géographie, Géopolitique et Science Politique (HGGSP)</li>
-                        <li><span>[+]</span>Humanités, littérature et philosophie (HLP)</li>
-                        <li><span>[+]</span>Anglais "Monde Contemporain" (AMC)</li>
-                        <li><span>[+]</span>Mathématiques (Maths)</li>
-                        <li><span>[+]</span>Physique Chimie (PC)</li>
-                        <li><span>[+]</span>Sciences de la Vie & de la Terre (SVT)</li>
-                        <li><span>[+]</span>Sciences Economiques & Sociales (SES)</li>
-                    </ul>
-                    <NavLink  to="/specialities"><button id="see-more">Voir Plus</button></NavLink>
-                </div>
-                <div id="container">
-                    <h3>Options ⏴</h3>
-                    <ul>
-                        <li><span>[+]</span>Arts Plastiques</li>
-                        <li><span>[+]</span>EPS (Handball, Badminton, Voile)</li>
-                        <li><span>[+]</span>Latin / Grec (Langues de l'Antiquité)</li>
-                        <li><span>[+]</span>Mathématiques complémentaires</li>
-                        <li><span>[+]</span>Mathématiques expertes</li>
-                        <li><span>[+]</span>Russe</li>
-                        <li><span>[+]</span>Théâtre</li>
-                    </ul>
-                    <NavLink to="/options"><button id="see-more">Voir Plus</button></NavLink>
-                </div>
-                <div id="container">
-                    <h3>Réussite Examens ⏴</h3>
-                    <div id="sub-container">
-                        <h4>BAC 2022 :</h4>
-                        <p>100% de réussite</p>
-                        <p>81% de mentions</p>
-                    </div>
-                    <div id="sub-container">
-                        <h4>Prépa SCIENCES PO :</h4>
-                        <p>2018 → 4 admis (2 REÇUS) </p>
-                        <p>2019 → 4 admis (1 REÇU)</p>
-                        <p>2020 → 4 admis (2 REÇUS)</p>
-                    </div>
-                    <div id="sub-container">
-                        <h4>Examens CAMBRIDGE 2019-2020 :</h4>
-                        <p>CAE : 3 REÇUS (100%)</p>
-                        <p>FCE: 13 REÇUS (92.85%)</p>
-                    </div>
-                </div>
-                <div id="container">
-                    <h3>Equipe Administrative ⏴</h3>
-                    <p>Attachée de direction → Christine VAL</p>
-                    <p>Secrétariat des élèves → Elisabeth GROSOS</p>
-                    <p>Comptabilité → Isabelle BRUGES</p>
-                    <p>Relations humaines → Axelle BOULAY</p>
-                    <p>Agent de maintenance → Jean-Marie HENRY</p>
-                </div>
             </div>
-        </div>
     )
 }
+
+/*
+    <div id="container">
+        <h3>Réussite Examens ⏴</h3>
+        <div id="sub-container">
+            <h4>BAC 2022 :</h4>
+            <p>100% de réussite</p>
+            <p>81% de mentions</p>
+        </div>
+        <div id="sub-container">
+            <h4>Prépa SCIENCES PO :</h4>
+            <p>2018 → 4 admis (2 REÇUS) </p>
+            <p>2019 → 4 admis (1 REÇU)</p>
+            <p>2020 → 4 admis (2 REÇUS)</p>
+        </div>
+        <div id="sub-container">
+            <h4>Examens CAMBRIDGE 2019-2020 :</h4>
+            <p>CAE : 3 REÇUS (100%)</p>
+            <p>FCE: 13 REÇUS (92.85%)</p>
+        </div>
+    </div>
+
+
+    <div id="container">
+        <h3>Notre Lycée ⏴</h3>
+        <ul>
+            <li><span>[+]</span>Batiments récents inaugurés en 2014</li>
+            <li><span>[+]</span>Un grand parc classé 'Monuments Historiques'</li>
+            <li><span>[+]</span>Terrain multi-sports + Parking Vélos / Voitures</li>
+        </ul>
+    </div>
+
+
+    <div id="container">
+        <h3>Equipe Administrative ⏴</h3>
+        <p>Attachée de direction → Christine VAL</p>
+        <p>Secrétariat des élèves → Elisabeth GROSOS</p>
+        <p>Comptabilité → Isabelle BRUGES</p>
+        <p>Relations humaines → Axelle BOULAY</p>
+        <p>Agent de maintenance → Jean-Marie HENRY</p>
+    </div>
+
+
+    <div id="container">
+        <h3>Spécialités ⏴</h3>
+        <ul>
+            <li><span>[+]</span>Histoire, Géographie, Géopolitique et Science Politique (HGGSP)</li>
+            <li><span>[+]</span>Humanités, littérature et philosophie (HLP)</li>
+            <li><span>[+]</span>Anglais "Monde Contemporain" (AMC)</li>
+            <li><span>[+]</span>Mathématiques (Maths)</li>
+            <li><span>[+]</span>Physique Chimie (PC)</li>
+            <li><span>[+]</span>Sciences de la Vie & de la Terre (SVT)</li>
+            <li><span>[+]</span>Sciences Economiques & Sociales (SES)</li>
+        </ul>
+        <NavLink  to="/specialities"><button id="see-more">Voir Plus</button></NavLink>
+    </div>
+    <div id="container">
+        <h3>Options ⏴</h3>
+        <ul>
+            <li><span>[+]</span>Arts Plastiques</li>
+            <li><span>[+]</span>EPS (Handball, Badminton, Voile)</li>
+            <li><span>[+]</span>Latin / Grec (Langues de l'Antiquité)</li>
+            <li><span>[+]</span>Mathématiques complémentaires</li>
+            <li><span>[+]</span>Mathématiques expertes</li>
+            <li><span>[+]</span>Russe</li>
+            <li><span>[+]</span>Théâtre</li>
+        </ul>
+        <NavLink to="/options"><button id="see-more">Voir Plus</button></NavLink>
+    </div>
+*/
 
 export default About;

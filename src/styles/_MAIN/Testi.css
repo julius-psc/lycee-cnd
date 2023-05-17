@@ -24,22 +24,23 @@
     font-weight: 500;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px) {
     .testimonial-section {
-        padding: 60px;
+        padding: 30px;
     }
 
     .testimonial-section h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .quotes-icon {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
 
     .testimonial-section p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        margin: 20px 0;
     }
 }
 

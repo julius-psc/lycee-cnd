@@ -35,7 +35,6 @@ const Levels = () => {
     return (
         <section className="lvl-sect">
             <h1>Niveaux</h1>
-            
             <div id="container" className="lvl-seconde"> 
                 <h3 onClick={handleSecondOpen}>Seconde<span className="text-dropdown">{secondOpen ? " ▲" : " ▼"}</span></h3>
                 <p>La seconde au lycée est la première année du cycle du lycée en France, qui vise à approfondir les connaissances acquises au collège et à préparer les élèves aux études supérieures.</p>

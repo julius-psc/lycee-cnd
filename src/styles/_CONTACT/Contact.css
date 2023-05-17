@@ -1,6 +1,6 @@
 
 
-#contact-h1 {
+.contact-wrapper h1 {
     color: #fff;
     padding: 40px;
     text-align: center;
@@ -20,6 +20,7 @@
 .contact-details p {
     font-size: 0.9rem;
     color: #173747;
+    margin: 3px 0;
 }
 
 .contact-details a {
@@ -104,6 +105,30 @@
     color: #fff;
 }
 
+@media screen and (max-width: 600px) {
+    .contact-wrapper h1 {
+        padding: 20px 0;
+        font-size: 1.4rem;
+    }
+
+    .contact-details h4 {
+        font-size: 1.1rem;
+    }
+
+    .contact-details {
+        padding: 20px;
+    }
+
+    .contact-sect {
+        margin: 10px 20px;
+    }
+
+    .contact-details p {
+        font-size: 0.7rem;
+        margin: 2px 0;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .contact-sect {
         display: block;
@@ -120,11 +145,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-
-    .contact-details p {
-        font-size: 1rem;
-    }
-
     .contact-form {
         margin: 0 10px;
         padding: 10px;

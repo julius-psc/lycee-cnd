@@ -5,7 +5,8 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 60px 0;
+    margin: 80px 0;
+    padding: 20px;
 }
 
 .img-section img {
@@ -26,8 +27,8 @@
 
 .txt-section h1 {
     font-size: 2.4rem;
-    margin: 10px 0;
     text-decoration: underline;
+    margin: 10px 0;
 }
 
 .txt-section span {
@@ -52,19 +53,27 @@
     color: #f5f5f7;
 }
 
-@media screen and (max-width: 850px) { 
+@media screen and (max-width: 600px) {
+    .cta-section {
+        margin: 10px 0;
+    }
 
     .txt-section {
-        margin: 40px;
+        padding: 0 20px;
+        text-align: center;
     }
 
     .txt-section h1 {
-        font-size: 2rem;
-        margin: 5px 0;
+        font-size: 1.6rem;
     }
 
     .txt-section p {
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .txt-section button {
+        font-size: 0.8rem;
+        padding: 12px;
     }
 }
 
@@ -81,32 +90,14 @@
     }
 
     .img-section {
-        margin: 40px 0;
+        margin: 10px 0;
     } 
 
     .img-section img {
         width: 90vw;
         height: auto;
     }
-
-    .txt-section p {
-        line-height: 2rem;
-    }
 }
-
-@media screen and (min-width: 1600px) {
-    .txt-section p, .txt-section button {
-        font-size: 1.2rem;
-    }
-
-    .txt-section h1 {
-        font-size: 2.8rem;
-    } 
-
-    .txt-section button {
-        width: 140px;
-    }
-} 
 
 
 

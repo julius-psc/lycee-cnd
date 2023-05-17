@@ -28,6 +28,22 @@
     margin: 40px 0;
 }
 
+@media screen and (max-width: 600px) {
+    .sign-section h1 {
+        padding: 20px;
+        font-size: 1.4rem;
+    }
+
+    .sign-details {
+        padding: 0;
+        margin: 10px 20px;
+    }
+
+    .sign-details p {
+        font-size: 0.8rem;
+    }
+}
+
 
 @media screen and (max-width: 1100px) {
     .tarifs-pdf {

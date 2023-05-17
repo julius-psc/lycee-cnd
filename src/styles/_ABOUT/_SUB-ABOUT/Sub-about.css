@@ -41,10 +41,11 @@
     color: #384955;
     font-weight: 600;
     margin-top: 20px;
+    text-align: center;
 }
 
 .sub-about-sect td {
-    border: 3px solid #384955;
+    border: 2px solid #384955;
     padding: 10px;
 }
 
@@ -54,5 +55,34 @@
 
 .sub-about-sect h3 {
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .sub-about-sect h1 {
+        padding: 20px 0;
+        font-size: 1.4rem;
+    }
+
+    .sub-about-sect #container:not(:first-child) {
+        margin: 10px 20px;
+        padding: 0;
+    }
+
+    .sub-about-sect h3 {
+        font-size: 1.3rem;
+    }
+
+    .sub-about-sect p, .sub-about-sect ul {
+        font-size: 0.8rem;
+    }
+
+    .sub-about-sect h4 {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .sub-about-sect table {
+        font-size: 0.8rem;
+    }
 }
 

@@ -71,6 +71,37 @@
     color: var(--mainColor);
 }
 
+@media screen and (max-width: 600px) {
+    .lvl-sect h1 {
+        padding: 20px 0;
+        font-size: 1.4rem;
+    }
+
+    .lvl-sect #container:not(:first-child) {
+        margin: 10px 20px;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .lvl-sect p, .lvl-sect ul {
+        font-size: 0.8rem;
+    }
+
+    .lvl-sect h3 {
+        font-size: 1.4rem;
+    }
+
+    .lvl-sect h4 {
+        font-size: 1.1rem;
+    }
+
+    .lvl-sect #option-btn, .lvl-sect #spec-btn {
+        font-size: 0.8rem;
+        padding: 10px;
+        margin: 10px 0;
+    }
+} 
+
 
 @media screen and (max-width: 1100px) {
     .new-bac {

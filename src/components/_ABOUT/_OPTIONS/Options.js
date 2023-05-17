@@ -84,7 +84,7 @@ const Options = () => {
             </div>
 
             <div id="container" className="EPS">
-                <h3 onClick={handleEpsClick}>Education Physique & Sport<span className="text-dropdown">{epsOpen ? " ▲" : " ▼"}</span></h3>
+                <h3 onClick={handleEpsClick}>Sport<span className="text-dropdown">{epsOpen ? " ▲" : " ▼"}</span></h3>
                 <p>L'option sport vise à développer les capacités physiques, les compétences techniques et les habiletés sociales des élèves à travers la pratique d'activités sportives variées.</p>
                 {epsOpen && (
                     <>
