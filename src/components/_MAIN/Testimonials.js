@@ -9,9 +9,11 @@ import { ReactComponent as QuotesIcon } from '../../assets/images/quote-left-sol
 const Testimonials = () => {
     return (
         <section className="testimonial-section">
-            <QuotesIcon className="quotes-icon"/>
-            <h3>Ce lycée offre un environnement d'apprentissage exceptionnel, avec des enseignants dévoués et des ressources pédagogiques de qualité.</h3>
-            <p>- Deepak PESCHARD │ Parent</p>
+            <div className="testi-wrapper">
+                <QuotesIcon className="quotes-icon"/>
+                <h3>Ce lycée offre un environnement d'apprentissage exceptionnel, avec des enseignants dévoués et des ressources pédagogiques de qualité.</h3>
+                <p>- Deepak PESCHARD │ Parent</p>
+            </div>
         </section>
     )
 }

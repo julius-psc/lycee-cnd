@@ -4,7 +4,10 @@
 .testimonial-section {
     color: #fff;
     background-color: #4EB5ED;
-    padding: 80px;
+}
+
+.testi-wrapper {
+    padding: 60px;
 }
 
 .quotes-icon {
@@ -25,12 +28,12 @@
 }
 
 @media screen and (max-width: 600px) {
-    .testimonial-section {
+    .testi-wrapper {
         padding: 30px;
     }
 
     .testimonial-section h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .quotes-icon {

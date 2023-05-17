@@ -64,7 +64,7 @@
     }
 
     .sub-about-sect #container:not(:first-child) {
-        margin: 10px 20px;
+        margin: 40px 20px;
         padding: 0;
     }
 
