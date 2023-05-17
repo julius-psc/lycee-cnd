@@ -25,15 +25,15 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path="/accueil" element={<Main />} />
-        <Route path="/" element={<Navigate to="/accueil" />} />
-        <Route path="/evenements" element={<Events/>} />
-        <Route exact path="/a-propos" element={<About />} />
-        <Route exact path="/specialities" element={<Specialities/>} />
-        <Route exact path="/options" element={<Options/>} />
-        <Route exact path="/niveaux" element={<Levels/>} />
-        <Route exact path="/contacter" element={<Contact/>} />
-        <Route exact path="/inscription" element={<Sign/>} />
+        <Route path="/lycee-cnd/accueil" element={<Main />} />
+        <Route path="/" element={<Navigate to="/lycee-cnd/accueil" />} />
+        <Route path="/lycee-cnd/evenements" element={<Events/>} />
+        <Route exact path="/lycee-cnd/a-propos" element={<About />} />
+        <Route exact path="/lycee-cnd/specialities" element={<Specialities/>} />
+        <Route exact path="/lycee-cnd/options" element={<Options/>} />
+        <Route exact path="/lycee-cnd/niveaux" element={<Levels/>} />
+        <Route exact path="/lycee-cnd/contacter" element={<Contact/>} />
+        <Route exact path="/lycee-cnd/inscription" element={<Sign/>} />
       </Routes>
       <ScrollToTopButton />
       <Footer/>

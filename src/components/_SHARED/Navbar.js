@@ -19,28 +19,28 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <div className="nav-logo">
-                <NavLink to="/accueil"><img alt="CND Logo" src={logo}></img></NavLink>
+                <NavLink to="/lycee-cnd/accueil"><img alt="CND Logo" src={logo}></img></NavLink>
             </div>
 
             <div className={`nav-links ${mobileMenuOpen ? 'mobile-menu' : ''}`}>
                 <ul>
                     <li>
-                        <NavLink to="/accueil" activeClassName="active">Accueil</NavLink>
+                        <NavLink to="/lycee-cnd/accueil" activeClassName="active">Accueil</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/evenements" activeClassName="active">Evenements</NavLink>
+                        <NavLink to="/lycee-cnd/evenements" activeClassName="active">Evenements</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/a-propos" activeClassName="active">A Propos</NavLink>
+                        <NavLink to="/lycee-cnd/a-propos" activeClassName="active">A Propos</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/niveaux" activeClassName="active">Niveaux</NavLink>
+                        <NavLink to="/lycee-cnd/niveaux" activeClassName="active">Niveaux</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/contacter" activeClassName="active">Contacter</NavLink>
+                        <NavLink to="/lycee-cnd/contacter" activeClassName="active">Contacter</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/inscription" activeClassName="active">Inscriptions</NavLink>
+                        <NavLink to="/lycee-cnd/inscription" activeClassName="active">Inscriptions</NavLink>
                     </li>
                 </ul>
             </div>
