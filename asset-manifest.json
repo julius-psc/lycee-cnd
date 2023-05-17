@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/accueil/static/css/main.4ccf0d09.css",
-    "main.js": "/accueil/static/js/main.697e5883.js",
-    "static/js/787.285c2feb.chunk.js": "/accueil/static/js/787.285c2feb.chunk.js",
-    "static/media/tarifs-cnd.pdf": "/accueil/static/media/tarifs-cnd.77e86c38fbaed740bc39.pdf",
-    "static/media/cnd-slider-2.png": "/accueil/static/media/cnd-slider-2.6d7e952e76f560e0f04c.png",
-    "static/media/cnd-new-bac.jpeg": "/accueil/static/media/cnd-new-bac.c0f2cbaeeae863a66d25.jpeg",
-    "static/media/cnd-slider-1.png": "/accueil/static/media/cnd-slider-1.1f500f5fc327dbef5301.png",
-    "static/media/cnd-slider-4.jpeg": "/accueil/static/media/cnd-slider-4.ff849425e917d1aea6c4.jpeg",
-    "static/media/cnd-main-cta.jpeg": "/accueil/static/media/cnd-main-cta.b93e08f71547088e2f8f.jpeg",
-    "static/media/cnd-slider-3.jpeg": "/accueil/static/media/cnd-slider-3.3d7a688bbb06ae546487.jpeg",
-    "static/media/cnd-slider-7.jpeg": "/accueil/static/media/cnd-slider-7.2e1c6c316ba8b18942bb.jpeg",
-    "static/media/cnd-landing-img.jpeg": "/accueil/static/media/cnd-landing-img.d7543c09083e6a8e4dbb.jpeg",
-    "static/media/cnd-slider-6.jpeg": "/accueil/static/media/cnd-slider-6.99f84b2965428bf939a8.jpeg",
-    "static/media/cnd-slider-5.jpeg": "/accueil/static/media/cnd-slider-5.439b7420e9df78e3d4fe.jpeg",
-    "static/media/cnd-logo.png": "/accueil/static/media/cnd-logo.176a7aa96915633d965b.png",
-    "index.html": "/accueil/index.html",
-    "static/media/quote-left-solid.svg": "/accueil/static/media/quote-left-solid.0db0a8d3b4210d2dd51e7a3e208d221c.svg",
-    "main.4ccf0d09.css.map": "/accueil/static/css/main.4ccf0d09.css.map",
-    "main.697e5883.js.map": "/accueil/static/js/main.697e5883.js.map",
-    "787.285c2feb.chunk.js.map": "/accueil/static/js/787.285c2feb.chunk.js.map"
+    "main.css": "/lycee-cnd/static/css/main.820fa800.css",
+    "main.js": "/lycee-cnd/static/js/main.9bbdfa57.js",
+    "static/js/787.285c2feb.chunk.js": "/lycee-cnd/static/js/787.285c2feb.chunk.js",
+    "static/media/tarifs-cnd.pdf": "/lycee-cnd/static/media/tarifs-cnd.77e86c38fbaed740bc39.pdf",
+    "static/media/cnd-slider-2.png": "/lycee-cnd/static/media/cnd-slider-2.6d7e952e76f560e0f04c.png",
+    "static/media/cnd-new-bac.jpeg": "/lycee-cnd/static/media/cnd-new-bac.c0f2cbaeeae863a66d25.jpeg",
+    "static/media/cnd-slider-1.png": "/lycee-cnd/static/media/cnd-slider-1.1f500f5fc327dbef5301.png",
+    "static/media/cnd-slider-4.jpeg": "/lycee-cnd/static/media/cnd-slider-4.ff849425e917d1aea6c4.jpeg",
+    "static/media/cnd-main-cta.jpeg": "/lycee-cnd/static/media/cnd-main-cta.b93e08f71547088e2f8f.jpeg",
+    "static/media/cnd-slider-3.jpeg": "/lycee-cnd/static/media/cnd-slider-3.3d7a688bbb06ae546487.jpeg",
+    "static/media/cnd-slider-7.jpeg": "/lycee-cnd/static/media/cnd-slider-7.2e1c6c316ba8b18942bb.jpeg",
+    "static/media/cnd-landing-img.jpeg": "/lycee-cnd/static/media/cnd-landing-img.d7543c09083e6a8e4dbb.jpeg",
+    "static/media/cnd-slider-6.jpeg": "/lycee-cnd/static/media/cnd-slider-6.99f84b2965428bf939a8.jpeg",
+    "static/media/cnd-slider-5.jpeg": "/lycee-cnd/static/media/cnd-slider-5.439b7420e9df78e3d4fe.jpeg",
+    "static/media/cnd-logo.png": "/lycee-cnd/static/media/cnd-logo.176a7aa96915633d965b.png",
+    "index.html": "/lycee-cnd/index.html",
+    "static/media/quote-left-solid.svg": "/lycee-cnd/static/media/quote-left-solid.0db0a8d3b4210d2dd51e7a3e208d221c.svg",
+    "main.820fa800.css.map": "/lycee-cnd/static/css/main.820fa800.css.map",
+    "main.9bbdfa57.js.map": "/lycee-cnd/static/js/main.9bbdfa57.js.map",
+    "787.285c2feb.chunk.js.map": "/lycee-cnd/static/js/787.285c2feb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ccf0d09.css",
-    "static/js/main.697e5883.js"
+    "static/css/main.820fa800.css",
+    "static/js/main.9bbdfa57.js"
   ]
 }
