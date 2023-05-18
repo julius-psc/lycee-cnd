@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lycee-cnd/static/css/main.60a7e3a8.css",
+    "main.css": "/lycee-cnd/static/css/main.b95eedba.css",
     "main.js": "/lycee-cnd/static/js/main.ceb1155b.js",
     "static/js/787.285c2feb.chunk.js": "/lycee-cnd/static/js/787.285c2feb.chunk.js",
     "static/media/tarifs-cnd.pdf": "/lycee-cnd/static/media/tarifs-cnd.77e86c38fbaed740bc39.pdf",
@@ -17,12 +17,12 @@
     "static/media/cnd-logo.png": "/lycee-cnd/static/media/cnd-logo.176a7aa96915633d965b.png",
     "index.html": "/lycee-cnd/index.html",
     "static/media/quote-left-solid.svg": "/lycee-cnd/static/media/quote-left-solid.0db0a8d3b4210d2dd51e7a3e208d221c.svg",
-    "main.60a7e3a8.css.map": "/lycee-cnd/static/css/main.60a7e3a8.css.map",
+    "main.b95eedba.css.map": "/lycee-cnd/static/css/main.b95eedba.css.map",
     "main.ceb1155b.js.map": "/lycee-cnd/static/js/main.ceb1155b.js.map",
     "787.285c2feb.chunk.js.map": "/lycee-cnd/static/js/787.285c2feb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60a7e3a8.css",
+    "static/css/main.b95eedba.css",
     "static/js/main.ceb1155b.js"
   ]
 }
