@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import Navbar from "./components/_SHARED/Navbar";
 import ScrollToTopButton from "./components/_SHARED/ScrollToTop";
@@ -24,6 +25,10 @@ function App() {
   return (
     <Router>
       <Navbar/>
+      <Helmet>
+          <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+          <meta name="theme-color" content="#ffffff" />
+      </Helmet>
       <Routes>
         <Route path="/lycee-cnd/accueil" element={<Main />} />
         <Route path="/lycee-cnd/" element={<Navigate to="/lycee-cnd/accueil" />} />
