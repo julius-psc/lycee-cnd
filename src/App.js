@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
+import '../src/App.css';
+
 import Navbar from "./components/_SHARED/Navbar";
 import ScrollToTopButton from "./components/_SHARED/ScrollToTop";
 import Footer from "./components/_SHARED/Footer";
