@@ -36,7 +36,10 @@ const Levels = () => {
         <section className="lvl-sect">
             <h1>Niveaux</h1>
             <div id="container" className="lvl-seconde"> 
-                <h3 onClick={handleSecondOpen}>Seconde<span className="text-dropdown">{secondOpen ? " ▲" : " ▼"}</span></h3>
+                <div id="level-header">
+                    <h3>2</h3>
+                    <h3 onClick={handleSecondOpen}>Seconde<span className="text-dropdown">{secondOpen ? " ▲" : " ▼"}</span></h3>
+                </div>
                 <p>La seconde au lycée est la première année du cycle du lycée en France, qui vise à approfondir les connaissances acquises au collège et à préparer les élèves aux études supérieures.</p>
                 <h4>Organisation</h4>
                 <ul>
@@ -70,7 +73,10 @@ const Levels = () => {
             </div>
 
             <div id="container" className="lvl-prem">
-                <h3 onClick={handlePremOpen}>Première<span className="text-dropdown">{premOpen ? " ▲" : " ▼"}</span></h3>
+                <div id="level-header">
+                    <h3>1</h3>
+                    <h3 onClick={handlePremOpen}>Première<span className="text-dropdown">{premOpen ? " ▲" : " ▼"}</span></h3>
+                </div>
                 <p>La première au lycée est une étape importante dans la scolarité des élèves, car elle marque le début du cycle du baccalauréat et implique l'approfondissement des matières étudiées en seconde.</p>
                 <h4>Organisation</h4>
                 <ul>
@@ -104,7 +110,10 @@ const Levels = () => {
             </div>
 
             <div id="container" className="lvl-term">
-                <h3 onClick={handleTermOpen}>Terminale<span className="text-dropdown">{termOpen ? " ▲" : " ▼"}</span></h3>
+                <div id="level-header">
+                    <h3>T</h3>
+                    <h3 onClick={handleTermOpen}>Terminale<span className="text-dropdown">{termOpen ? " ▲" : " ▼"}</span></h3>
+                </div>
                 <p>La terminale est la dernière année du cycle du lycée en France, pendant laquelle les élèves préparent le baccalauréat, l'examen national qui marque la fin de leurs études secondaires et l'entrée dans l'enseignement supérieur ou le monde professionnel.</p>
                 <h4>Organisation</h4>
                 <ul>

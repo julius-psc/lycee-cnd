@@ -7,6 +7,15 @@ import { useState } from "react";
 
 import '../../../styles/_ABOUT/_SUB-ABOUT/Sub-about.css';
 
+import artIcon from '../../../assets/images/artIcon.png';
+import lawIcon from '../../../assets/images/lawIcon.png';
+import sportIcon from '../../../assets/images/sportIcon.png';
+import englishIcon from '../../../assets/images/englishIcon.png';
+import mathsCompIcon from '../../../assets/images/mathsCompIcon.png';
+import mathsExpIcon from '../../../assets/images/mathsExpIcon.png';
+import russianIcon from '../../../assets/images/russianIcon.png';
+import theatreIcon from '../../../assets/images/theatreIcon.png';
+
 const Options = () => {
     const [artOpen, setArtOpen] = useState(true);
     const [dgeOpen, setDgeOpen] = useState(false);
@@ -54,8 +63,8 @@ const Options = () => {
             <h1>Options</h1>
 
             <div id="container" className="ART">
-                <h3 onClick={handleArtClick}>Arts Plastiques<span className="text-dropdown">{artOpen ? " ▲" : " ▼"}</span></h3>
-                <p>Les Arts Plastiques permettent aux élèves de développer leur créativité et leur sensibilité artistique à travers la pratique de différentes formes d'arts visuels tels que la peinture, le dessin, la sculpture, la photographie, etc.</p>
+            <div id="h3-header"><img id="icon" src={artIcon}></img><h3 onClick={handleArtClick}>Arts Plastiques<span className="text-dropdown">{artOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>L'option arts plastiques au lycée permet aux étudiants d'explorer et de développer leur créativité à travers différentes formes d'expression artistique.</p>
                 {artOpen && (
                     <>
                         <h4>A qui s'adresse cette option ?</h4>
@@ -71,8 +80,8 @@ const Options = () => {
             </div>
 
             <div id="container" className="DGEMC">
-                <h3 onClick={handleDgeClick}>Droits & Grands Enjeux du Monde Contemporain<span className="text-dropdown">{dgeOpen ? " ▲" : " ▼"}</span></h3>
-                <p>L’enseignement de Droit et grands enjeux du monde contemporain vise à élargir les perspectives des élèves de terminale. L’objectif est de leur faire découvrir les instruments du droit –normes, institutions, métiers –, son rôle social, ainsi que la méthodologie du raisonnement juridique.</p>
+            <div id="h3-header"><img id="icon" src={lawIcon}></img><h3 onClick={handleDgeClick}> Droits & Grands Enjeux du Monde Contemporain<span className="text-dropdown">{dgeOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>L'option DGEMC (Droit et Grands Enjeux du Monde Contemporain) au lycée offre aux élèves une compréhension approfondie des questions juridiques et sociétales actuelles.</p>
                 {dgeOpen && (
                     <>
                         <h4>A qui s'adresse cette option ?</h4>
@@ -84,8 +93,8 @@ const Options = () => {
             </div>
 
             <div id="container" className="EPS">
-                <h3 onClick={handleEpsClick}>Sport<span className="text-dropdown">{epsOpen ? " ▲" : " ▼"}</span></h3>
-                <p>L'option sport vise à développer les capacités physiques, les compétences techniques et les habiletés sociales des élèves à travers la pratique d'activités sportives variées.</p>
+            <div id="h3-header"><img id="icon" src={sportIcon}></img><h3 onClick={handleEpsClick}> Sport<span className="text-dropdown">{epsOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>L'option EPS (Éducation Physique et Sportive) au lycée permet aux élèves de développer leurs compétences physiques, leur esprit d'équipe et leur bien-être à travers la pratique d'activités sportives variées.</p>
                 {epsOpen && (
                     <>
                         <h4>A qui s'adresse cette option ?</h4>
@@ -122,8 +131,8 @@ const Options = () => {
             </div>
 
             <div id="container" className="ECLA">
-                <h3 onClick={handleEclaClick}>Enseignement Conjoint des Langues Anciennes<span className="text-dropdown">{eclaOpen ? " ▲" : " ▼"}</span></h3>
-                <p>L'option LCA permet aux élèves de découvrir la richesse de la culture antique à travers l'étude de textes originaux, la lecture d'œuvres littéraires, l'analyse de documents historiques et la découverte de la civilisation antique. Elle permet également de développer des compétences linguistiques et de mieux comprendre la langue française, qui est largement influencée par le latin et le grec ancien.</p>
+            <div id="h3-header"><img id="icon" src={englishIcon}></img><h3 onClick={handleEclaClick}> Enseignement Conjoint des Langues Anciennes<span className="text-dropdown">{eclaOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>L'option ECLA (Enseignements de Complément de Langue et de Culture d'Antiquité) au lycée propose l'étude approfondie des langues anciennes, telles que le latin et le grec, ainsi que leur culture.</p>
                 {eclaOpen && (
                     <>
                         <h4>A qui s'adresse cette option ?</h4>
@@ -139,8 +148,8 @@ const Options = () => {
             </div>
 
             <div id="container" className="MATHSCOMP">
-                <h3 onClick={handleMathCompClick}>Maths Complémentaires<span className="text-dropdown">{mathCompOpen ? " ▲" : " ▼"}</span></h3>
-                <p>L'option maths complémentaires vise à approfondir les connaissances des élèves en mathématiques, en se concentrant sur des domaines spécifiques tels que l'algèbre, la géométrie, l'analyse, les probabilités et les statistiques.</p>
+                <div id="h3-header"><img id="icon" src={mathsCompIcon} ></img><h3 onClick={handleMathCompClick}>Maths Complémentaires<span className="text-dropdown">{mathCompOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>L'option maths complémentaires au lycée offre aux élèves la possibilité d'approfondir leurs connaissances en mathématiques en se concentrant sur des sujets spécifiques et des applications pratiques.</p>
                 {mathCompOpen && (
                     <>
                         <h4>A qui s'adresse cette option ?</h4>
@@ -154,8 +163,8 @@ const Options = () => {
             </div>
 
             <div id="container" className="MATHSEXP">
-                <h3 onClick={handleMathExpClick}>Maths Expertes<span className="text-dropdown">{mathExpOpen ? " ▲" : " ▼"}</span></h3>
-                <p>l'option Maths expertes propose des cours avancés et plus exigeants que ceux proposés dans le cursus standard de mathématiques. Les élèves y étudient des domaines tels que l'algèbre avancée, l'analyse, la géométrie différentielle, la théorie des nombres, la théorie des graphes, la combinatoire et d'autres sujets mathématiques avancés.</p>
+            <div id="h3-header"><img id="icon" src={mathsExpIcon}></img><h3 onClick={handleMathExpClick}> Maths Expertes<span className="text-dropdown">{mathExpOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>L'option maths expertes au lycée permet aux élèves passionnés de mathématiques d'explorer des concepts avancés et des problèmes complexes, les préparant ainsi à des études supérieures exigeantes dans ce domaine.</p>
                 {mathExpOpen && (
                     <>
                         <h4>A qui s'adresse cette option ?</h4>
@@ -169,12 +178,12 @@ const Options = () => {
             </div>
 
             <div id="container" className="RUSSE">
-                <h3 onClick={handleRusseClick}>Russe<span className="text-dropdown">{russeOpen ? " ▲" : " ▼"}</span></h3>
+            <div id="h3-header"><img src={russianIcon} id="icon"></img><h3 onClick={handleRusseClick}>Russe<span className="text-dropdown">{russeOpen ? " ▲" : " ▼"}</span></h3></div>
                 <p>L'option russe vise à permettre aux élèves d'apprendre la langue russe, ainsi que de découvrir la culture et la civilisation russe.</p>
                 {russeOpen && (
                     <>
                         <h4>A qui s'adresse cette option ?</h4>
-                        <p>Elle s'adresse aux élèves qui souhaitent développer leurs compétences linguistiques, découvrir une nouvelle culture, ou encore qui envisagent des études supérieures dans des domaines tels que les langues étrangères, les sciences politiques, l'histoire ou les relations internationales.</p>
+                        <p>L'option russe au lycée propose l'apprentissage de la langue russe, offrant aux élèves une ouverture sur une nouvelle culture et des opportunités linguistiques et professionnelles supplémentaires.</p>
                         <h4>Organisation</h4>
                         <ul>
                             - Vérifier avec le professeur correspondant
@@ -184,8 +193,8 @@ const Options = () => {
             </div>
 
             <div id="container" className="THEATRE">
-                <h3 onClick={handleTheatreClick}>Théâtre<span className="text-dropdown">{theaOpen ? " ▲" : " ▼"}</span></h3>
-                <p>L'option Théâtre vise à permettre aux élèves de découvrir les arts de la scène, d'approfondir leur compréhension de l'expression corporelle et verbale, et de développer leur créativité.</p>
+            <div id="h3-header"><img src={theatreIcon} id="icon"></img><h3 onClick={handleTheatreClick}>Théâtre<span className="text-dropdown">{theaOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>L'option théâtre au lycée permet aux élèves de développer leurs compétences en expression orale, en improvisation et en interprétation, tout en explorant différentes formes théâtrales et en développant leur créativité scénique.</p>
                 {theaOpen && (
                     <>
                         <h4>A qui s'adresse cette option ?</h4>

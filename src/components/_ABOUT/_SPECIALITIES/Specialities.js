@@ -7,6 +7,14 @@ import { useState } from "react";
 
 import '../../../styles/_ABOUT/_SUB-ABOUT/Sub-about.css';
 
+import hggspIcon from '../../../assets/images/hggspIcon.png';
+import hlpIcon from '../../../assets/images/hlpIcon.png';
+import amcIcon from '../../../assets/images/amcIcon.png';
+import mathIcon from '../../../assets/images/mathsSpecIcon.png';
+import physIcon from '../../../assets/images/physicsIcon.png';
+import ecoIcon from '../../../assets/images/economyIcon.png';
+import bioIcon from '../../../assets/images/biologyIcon.png';
+
 const Specialities = () => {
     const [hggspOpen, setHggspOpen] = useState(true);
     const [hlpOpen, setHlpOpen] = useState(false);
@@ -49,8 +57,8 @@ const Specialities = () => {
             <h1>Spécialités</h1>
 
             <div id="container" className="HGGSP">
-                <h3 onClick={handleHggspClick}>Histoire, Géographie, Géopolitique et Sciences Politiques (HGGSP)<span className="text-dropdown">{hggspOpen ? " ▲" : " ▼"}</span></h3>
-                <p>La spécialité Histoire-géographie, géopolitique et sciences politiques propose des clés de compréhension du monde contemporain par l’étude de différents enjeux majeurs. Chaque thème est l’occasion d’une observation du monde actuel, mais également d’un approfondissement historique et géographique permettant de mesurer les influences et les évolutions d’une question politique.</p>
+                <div id="h3-header"><img id="icon" src={hggspIcon}></img><h3 onClick={handleHggspClick}>Histoire, Géographie, Géopolitique et Sciences Politiques (HGGSP)<span className="text-dropdown">{hggspOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>La spécialité HGGSP (Histoire-Géographie, Géopolitique et Sciences Politiques) au lycée permet aux élèves d'approfondir leur connaissance des événements historiques, des enjeux géopolitiques mondiaux et d'acquérir des compétences en sciences politiques.</p>
                 {hggspOpen && (
                     <>
                         <h4>A qui s'adresse cette spécialité ?</h4>
@@ -69,8 +77,8 @@ const Specialities = () => {
             </div>
             
             <div id="container" className="HLP">
-                <h3 onClick={handleHlpClick}>Humanités, Littérature et Philosophie (HLP)<span className="text-dropdown">{hlpOpen ? " ▲" : " ▼"}</span></h3>
-                <p>La spécialité Humanité, littérature et philosophie est un enseignement qui aborde diverses thématiques en mêlant les deux matières précitées.</p>
+                <div id="h3-header"><img id="icon" src={hlpIcon}></img><h3 onClick={handleHlpClick}>Humanités, Littérature et Philosophie (HLP)<span className="text-dropdown">{hlpOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>La spécialité HLP (Humanités, Littérature et Philosophie) au lycée invite les élèves à développer leur esprit critique, leur analyse littéraire et leur réflexion philosophique à travers l'étude d'œuvres littéraires et philosophiques majeures.</p>
                 {hlpOpen && (
                     <>
                         <h4>A qui s'adresse cette spécialité ?</h4>
@@ -88,8 +96,8 @@ const Specialities = () => {
             </div>
 
             <div id="container" className="LLCE">
-                <h3 onClick={handleLlceClick}>Anglais Monde Contemporain (AMC)<span className="text-dropdown">{llceOpen ? " ▲" : " ▼"}</span></h3>
-                <p>L’enseignement de la spécialité LLCE - Anglais Monde Contemporain s'adresse à tous les lycéens souhaitant se sensibiliser à la diversité des sociétés et des cultures. Il se donne pour objectif d’analyser quelques grands enjeux sociétaux, économiques, politiques, géopolitiques, culturels, scientifiques et techniques du monde anglophone contemporain, en partant de questions actuelles et en les resituant dans leur contexte historique afin de donner aux élèves les repères et les clés de compréhension indispensables.</p>
+                <div id="h3-header"><img id="icon" src={amcIcon}></img><h3 onClick={handleLlceClick}>Anglais Monde Contemporain (AMC)<span className="text-dropdown">{llceOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>La spécialité AMC (Anglais, Monde Contemporain) au lycée offre aux élèves l'opportunité d'approfondir leurs compétences en anglais tout en explorant les enjeux et les réalités du monde contemporain anglophone.</p>
                 {llceOpen && (
                     <>
                         <h4>A qui s'adresse cette spécialité ?</h4>
@@ -108,8 +116,8 @@ const Specialities = () => {
             </div>
 
             <div id="container" className="MATHS">
-                <h3 onClick={handleMathClick}>Mathématiques (MATHS)<span className="text-dropdown">{mathOpen ? " ▲" : " ▼"}</span></h3>
-                <p>Avec la réforme du lycée, les mathématiques en Première et Terminale sont désormais une spécialité ; ils ne font pas partie du tronc commun (on retrouve quelques outils mathématiques dans le cadre d’une autre matière, l'« enseignement scientifique », qui vise à transmettre une culture scientifique à tous les élèves, et qui, elle, est dans le tronc commun). </p>
+                <div id="h3-header"><img id="icon" src={mathIcon}></img><h3 onClick={handleMathClick}>Mathématiques (MATHS)<span className="text-dropdown">{mathOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>La spécialité Maths (Mathématiques) au lycée permet aux élèves de développer leurs compétences en résolution de problèmes, en raisonnement logique et en modélisation mathématique, leur offrant une base solide pour les études supérieures dans les domaines scientifiques et techniques.</p>
                 {mathOpen && (
                     <>
                         <h4>A qui s'adresse cette spécialité ?</h4>
@@ -130,8 +138,8 @@ const Specialities = () => {
             </div>
 
             <div id="container" className="PC">
-                <h3 onClick={handlePhysClick}>Physique-Chimie (PC)<span className="text-dropdown">{physOpen ? " ▲" : " ▼"}</span></h3>
-                <p>La spécialité Physique-chimie permet d'explorer les lois fondamentales de la nature et permet de mieux comprendre le monde qui nous entoure. Avec une approche à la fois théorique et expérimentale, cette discipline permet aux élèves de développer leur raisonnement scientifique et leur capacité à résoudre des problèmes concrets. En étudiant la matière, l'énergie et les interactions, les élèves acquièrent une solide culture scientifique qui leur sera utile dans leurs études futures et leur vie professionnelle.</p>
+                <div id="h3-header"><img id="icon" src={physIcon}></img><h3 onClick={handlePhysClick}>Physique-Chimie (PC)<span className="text-dropdown">{physOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>La spécialité Physique Chimie au lycée permet aux élèves de comprendre et d'explorer les lois fondamentales de la physique et de la chimie, en développant des compétences expérimentales et en appliquant des concepts scientifiques à des phénomènes réels.</p>
                 {physOpen && (
                     <>
                         <h4>A qui s'adresse cette spécialite ?</h4>
@@ -150,8 +158,8 @@ const Specialities = () => {
             </div>
 
             <div id="container" className="SES">
-                <h3 onClick={handleEcoClick}>Sciences Economiques & Sociales (SES)<span className="text-dropdown">{ecoOpen ? " ▲" : " ▼"}</span></h3>
-                <p>La spécialité SES est une discipline qui s'appuie sur 3 matières, à savoir : l'économie, la sociologie et les sciences politiques. Elle vise à transmettre une culture générale afin de comprendre les principaux mécanismes du monde qui nous entoure. Les Sciences Économiques et Sociales ne sont pas étudiées dans le cadre du tronc commun.</p>
+                <div id="h3-header"><img id="icon" src={ecoIcon}></img><h3 onClick={handleEcoClick}>Sciences Economiques & Sociales (SES)<span className="text-dropdown">{ecoOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>La spécialité SES (Sciences Économiques et Sociales) au lycée offre aux élèves une compréhension approfondie des enjeux économiques, sociologiques et politiques de la société, les préparant ainsi à comprendre les mécanismes sociaux et les problématiques économiques contemporaines.</p>
                 {ecoOpen && (
                     <>
                         <h4>A qui s'adresse cette spécialité ?</h4>
@@ -169,8 +177,8 @@ const Specialities = () => {
             </div>
 
             <div id="container" className="SVT">
-                <h3 onClick={handleBioClick}>Sciences de la Vie & de la Terre (SVT)<span className="text-dropdown">{bioOpen ? " ▲" : " ▼"}</span></h3>
-                <p>L’enseignement de spécialité de la classe de Première et de Terminale mènent à un approfondissement des thèmes travaillés en amont en plus des nouveaux. La discipline vise à la fois à une meilleure connaissance et compréhension des objets et des méthodes scientifiques mais également à une meilleure éducation en matière d’environnement, de santé et de sécurité.</p>
+                <div id="h3-header"><img id="icon" src={bioIcon}></img><h3 onClick={handleBioClick}>Sciences de la Vie & de la Terre (SVT)<span className="text-dropdown">{bioOpen ? " ▲" : " ▼"}</span></h3></div>
+                <p>La spécialité SVT (Sciences de la Vie et de la Terre) au lycée permet aux élèves d'explorer les sciences du vivant, de la biologie à l'écologie en passant par la géologie, et de comprendre les enjeux environnementaux et les défis liés à la préservation de la biodiversité et à la santé humaine.</p>
                 {bioOpen && (
                     <>
                         <h4>A qui s'adresse cette spécialité ?</h4>
